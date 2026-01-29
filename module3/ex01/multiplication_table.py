@@ -6,7 +6,8 @@ try:
 
 	i = 0
 	while i < 10:
-		print(i, 'x', num, '=', i * num)
+		#print(i, 'x', num, '=', i * num)
+		print(f"{i} x {num} = {i * num}")
 		i += 1
 
 except ValueError:
